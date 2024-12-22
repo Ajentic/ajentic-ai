@@ -7,11 +7,10 @@ const About = () => {
       <section className="py-20 gradient-bg">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold text-center mb-6">
-            Transform ideas into thriving ventures with AI Venture Builder
+            Shaping the Future Through AI Innovation
           </h1>
           <p className="text-xl text-center text-gray-600 max-w-3xl mx-auto">
-            AI Venture Builder is a venture builder that develops AI solutions for Retail and many more, that address specific needs that are expressed by the market.
-            Once each solution becomes a marketable product, it creates a spin-off product based on it.
+            Welcome to Ajentic AI, where we are dedicated to shape the world of artificial intelligence through innovation, collaboration, and investments. Our mission is to revolutionize the future with cutting-edge AI solutions that drive technological advancement and create a better world for all.
           </p>
         </div>
       </section>

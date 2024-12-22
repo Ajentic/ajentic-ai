@@ -15,26 +15,6 @@ const Navbar = () => {
           
           <div className="hidden md:flex space-x-8">
             <Link
-              to="/ajentic-ai"
-              className={`${
-                isActive("/ajentic-ai")
-                  ? "text-primary border-b-2 border-primary"
-                  : "text-gray-600 hover:text-primary"
-              } px-3 py-2 text-sm font-medium transition-colors duration-200`}
-            >
-              AjenticAI
-            </Link>
-            <Link
-              to="/agentic-ai"
-              className={`${
-                isActive("/agentic-ai")
-                  ? "text-primary border-b-2 border-primary"
-                  : "text-gray-600 hover:text-primary"
-              } px-3 py-2 text-sm font-medium transition-colors duration-200`}
-            >
-              AgenticAI
-            </Link>
-            <Link
               to="/about"
               className={`${
                 isActive("/about")
@@ -43,6 +23,16 @@ const Navbar = () => {
               } px-3 py-2 text-sm font-medium transition-colors duration-200`}
             >
               About Us
+            </Link>
+            <Link
+              to="/team"
+              className={`${
+                isActive("/team")
+                  ? "text-primary border-b-2 border-primary"
+                  : "text-gray-600 hover:text-primary"
+              } px-3 py-2 text-sm font-medium transition-colors duration-200`}
+            >
+              My Team
             </Link>
           </div>
         </div>
