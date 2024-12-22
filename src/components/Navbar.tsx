@@ -34,6 +34,16 @@ const Navbar = () => {
             >
               My Team
             </Link>
+            <Link
+              to="/contact"
+              className={`${
+                isActive("/contact")
+                  ? "text-primary border-b-2 border-primary"
+                  : "text-gray-600 hover:text-primary"
+              } px-3 py-2 text-sm font-medium transition-colors duration-200`}
+            >
+              Contact Us
+            </Link>
           </div>
         </div>
       </div>

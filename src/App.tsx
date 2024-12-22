@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Team from "./pages/Team";
+import Contact from "./pages/Contact";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +23,7 @@ const App = () => (
               <Route path="/" element={<Navigate to="/about" replace />} />
               <Route path="/about" element={<About />} />
               <Route path="/team" element={<Team />} />
+              <Route path="/contact" element={<Contact />} />
             </Routes>
           </main>
         </div>
