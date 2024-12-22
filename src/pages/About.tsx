@@ -44,6 +44,18 @@ const About = () => {
           </div>
         </div>
       </section>
+
+      <section className="py-20 gradient-bg">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-6">
+            Transform ideas into thriving ventures with Ajentic AI
+          </h2>
+          <p className="text-xl text-center text-gray-600 max-w-3xl mx-auto">
+            Ajentic AI is a venture builder that develops AI solution for Retail vertical and many more, addressing specific needs expressed by the market.
+            Once each solution becomes a marketable product, it creates a spin-off company based on it.
+          </p>
+        </div>
+      </section>
     </div>
   );
 };
