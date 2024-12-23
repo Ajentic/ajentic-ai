@@ -20,10 +20,11 @@ const App = () => (
           <Navbar />
           <main className="flex-1">
             <Routes>
-              <Route path="/" element={<Navigate to="/about" replace />} />
+              <Route path="/" element={<About />} />
               <Route path="/about" element={<About />} />
               <Route path="/team" element={<Team />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </main>
         </div>
