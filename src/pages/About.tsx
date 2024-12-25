@@ -10,15 +10,15 @@ const About = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-primary text-center mb-6">
             Shaping the Future Through AI Innovation
           </h1>
-          <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto mb-12">
-            Welcome to Ajentic AI, where we are dedicated to shape the world of artificial intelligence through innovation, collaboration, and investments. Our mission is to revolutionize the future with cutting-edge AI solutions that drive technological advancement and create a better world for all.
-          </p>
-          <div className="max-w-3xl mx-auto mb-12">
-            <p className="text-xl text-gray-600 text-center mb-6">
-              Our role as an AI Consulting company is to tackle the critical challenges that companies haven't yet staffed for. We excel at building solutions and then thoughtfully transitioning them to permanent teams, embodying the principle of effective self-replacement.
+          <div className="text-xl text-gray-600 text-center max-w-3xl mx-auto space-y-6">
+            <p>
+              At Ajentic AI, we are committed to shaping the future of artificial intelligence through innovation, collaboration, and strategic investments. Our mission is to drive technological progress with cutting-edge AI solutions that foster a better world for everyone.
             </p>
-            <p className="text-xl text-gray-600 text-center">
-              At Ajentic AI, we specialize in taking projects from zero to one, embracing our unique position as pioneers who excel at building foundations and gracefully stepping aside.
+            <p>
+              As an AI consulting company, we address critical challenges that organizations are not yet equipped to handle internally. We specialize in designing and implementing transformative solutions and ensuring a seamless handoff to permanent teams, guided by our philosophy of effective self-replacement.
+            </p>
+            <p>
+              We thrive on taking projects from concept to reality, excelling at building robust foundations and transitioning with grace once the groundwork is established. Ajentic AI is where pioneering vision meets purposeful execution.
             </p>
           </div>
           <VennDiagram />
@@ -68,17 +68,10 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-primary text-center mb-6">
             Transform ideas into thriving ventures with Ajentic AI
           </h2>
-          <div className="text-xl text-gray-600 text-center max-w-3xl mx-auto space-y-6">
-            <p>
-              At Ajentic AI, we are committed to shaping the future of artificial intelligence through innovation, collaboration, and strategic investments. Our mission is to drive technological progress with cutting-edge AI solutions that foster a better world for everyone.
-            </p>
-            <p>
-              As an AI consulting company, we address critical challenges that organizations are not yet equipped to handle internally. We specialize in designing and implementing transformative solutions and ensuring a seamless handoff to permanent teams, guided by our philosophy of effective self-replacement.
-            </p>
-            <p>
-              We thrive on taking projects from concept to reality, excelling at building robust foundations and transitioning with grace once the groundwork is established. Ajentic AI is where pioneering vision meets purposeful execution.
-            </p>
-          </div>
+          <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto">
+            Ajentic AI is a venture builder that develops AI solution for Retail vertical and many more, addressing specific needs expressed by the market.
+            Once each solution becomes a marketable product, it creates a spin-off company based on it.
+          </p>
         </div>
       </section>
     </div>
