@@ -41,7 +41,7 @@ const teamMembers = {
       name: "Jai Desai",
       role: "Advisor COO",
       linkedin: "https://www.linkedin.com/in/jaidesai/",
-      image: "/placeholder.svg",
+      image: "/lovable-uploads/b33b5093-10d4-40aa-b5fb-ffdedc8690ab.png",
       initials: "JD",
     },
   ],
