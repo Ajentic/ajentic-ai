@@ -31,9 +31,6 @@ const About = () => {
             Our Unique Selling Proposition: Building Teams to Build Great Products
           </h2>
           <div className="max-w-3xl mx-auto mb-12">
-            <h3 className="text-2xl font-bold text-primary text-center mb-6">
-              Building Teams, Not Just Products
-            </h3>
             <p className="text-xl text-gray-600 text-center mb-6">
               At Ajentic AI, we understand that while it may seem like you're building a technology company, the real challenge is building the team behind the product—and ultimately, the company itself.
             </p>
