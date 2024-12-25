@@ -28,7 +28,7 @@ const About = () => {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-primary text-center mb-8">
-            Our unique selling proposition
+            Our Unique Selling Proposition: Building Teams to Build Great Products
           </h2>
           <div className="max-w-3xl mx-auto mb-12">
             <h3 className="text-2xl font-bold text-primary text-center mb-6">
