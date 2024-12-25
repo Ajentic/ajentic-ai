@@ -4,13 +4,13 @@ import VennDiagram from "@/components/VennDiagram";
 
 const About = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen font-alegreya">
       <section className="py-20 gradient-bg">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold text-center mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-primary text-center mb-6">
             Shaping the Future Through AI Innovation
           </h1>
-          <p className="text-xl text-center text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto">
             Welcome to Ajentic AI, where we are dedicated to shape the world of artificial intelligence through innovation, collaboration, and investments. Our mission is to revolutionize the future with cutting-edge AI solutions that drive technological advancement and create a better world for all.
           </p>
           <VennDiagram />
@@ -19,7 +19,7 @@ const About = () => {
 
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">
+          <h2 className="text-3xl font-bold text-primary text-center mb-12">
             Our unique selling proposition
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -49,10 +49,10 @@ const About = () => {
 
       <section className="py-20 gradient-bg">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary text-center mb-6">
             Transform ideas into thriving ventures with Ajentic AI
           </h2>
-          <p className="text-xl text-center text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto">
             Ajentic AI is a venture builder that develops AI solution for Retail vertical and many more, addressing specific needs expressed by the market.
             Once each solution becomes a marketable product, it creates a spin-off company based on it.
           </p>
