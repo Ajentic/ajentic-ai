@@ -32,7 +32,7 @@ const teamMembers = {
       name: "Sundararajan Kalidasan",
       role: "India Head",
       linkedin: "https://www.linkedin.com/in/sundararajan2008/",
-      image: "/placeholder.svg",
+      image: "/lovable-uploads/92261bfc-4c32-4acf-ab36-8e8f143b3700.png",
       initials: "SK",
     },
   ],
