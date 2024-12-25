@@ -3,12 +3,34 @@ import React from 'react';
 const VennDiagram = () => {
   return (
     <div className="max-w-4xl mx-auto my-12 p-6 bg-white rounded-lg shadow-lg">
-      <div className="relative w-full aspect-[16/9] flex items-center justify-center">
-        <img
-          src="/lovable-uploads/1fcced45-da7f-4037-bfe6-0808c9cecd22.png"
-          alt="Ajentic AI Approach Venn Diagram"
-          className="w-full h-auto max-w-2xl mx-auto"
-        />
+      <div className="relative w-full aspect-[16/9] flex items-center justify-center p-8">
+        <div className="relative w-full max-w-2xl mx-auto h-[300px] flex items-center justify-center">
+          {/* Left Circle */}
+          <div className="absolute left-1/4 transform -translate-x-1/2 w-64 h-64 rounded-full bg-blue-100 bg-opacity-70 flex items-center justify-center text-center p-4 z-10">
+            <span className="text-primary font-medium">
+              Identify Critical Business Needs
+            </span>
+          </div>
+          
+          {/* Right Circle */}
+          <div className="absolute right-1/4 transform translate-x-1/2 w-64 h-64 rounded-full bg-green-100 bg-opacity-70 flex items-center justify-center text-center p-4 z-10">
+            <span className="text-primary font-medium">
+              Build & Implement Solutions
+            </span>
+          </div>
+          
+          {/* Center Circle */}
+          <div className="absolute left-1/2 transform -translate-x-1/2 w-64 h-64 rounded-full bg-purple-100 bg-opacity-70 flex items-center justify-center text-center p-4 z-20">
+            <div className="space-y-2">
+              <span className="text-primary font-bold block">
+                Transition & Handover
+              </span>
+              <span className="text-sm text-gray-600 block">
+                Delegate to permanent team
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="mt-8 space-y-4 text-center">
         <p className="text-xl text-gray-700">
