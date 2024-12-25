@@ -1,5 +1,6 @@
 import { Brain, Building, Users, Trophy } from "lucide-react";
 import USPCard from "@/components/USPCard";
+import VennDiagram from "@/components/VennDiagram";
 
 const About = () => {
   return (
@@ -12,6 +13,7 @@ const About = () => {
           <p className="text-xl text-center text-gray-600 max-w-3xl mx-auto">
             Welcome to Ajentic AI, where we are dedicated to shape the world of artificial intelligence through innovation, collaboration, and investments. Our mission is to revolutionize the future with cutting-edge AI solutions that drive technological advancement and create a better world for all.
           </p>
+          <VennDiagram />
         </div>
       </section>
 
