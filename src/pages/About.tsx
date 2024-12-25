@@ -5,7 +5,7 @@ import VennDiagram from "@/components/VennDiagram";
 const About = () => {
   return (
     <div className="min-h-screen font-alegreya">
-      <section className="py-20 gradient-bg">
+      <section className="py-16 gradient-bg">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold text-primary text-center mb-6">
             Shaping the Future Through AI Innovation
@@ -25,7 +25,7 @@ const About = () => {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-[#062E4B] text-center mb-12">
             Our Unique Selling Proposition: Building Teams to Build Great Products
@@ -90,7 +90,7 @@ const About = () => {
         </div>
       </section>
 
-      <section className="py-20 gradient-bg">
+      <section className="py-16 gradient-bg">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-bold text-primary text-center mb-6">
             Transform ideas into thriving ventures with Ajentic AI
