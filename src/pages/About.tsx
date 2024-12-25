@@ -10,9 +10,17 @@ const About = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-primary text-center mb-6">
             Shaping the Future Through AI Innovation
           </h1>
-          <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto mb-8">
             Welcome to Ajentic AI, where we are dedicated to shape the world of artificial intelligence through innovation, collaboration, and investments. Our mission is to revolutionize the future with cutting-edge AI solutions that drive technological advancement and create a better world for all.
           </p>
+          <div className="max-w-3xl mx-auto mb-12 space-y-4">
+            <p className="text-xl text-gray-700 font-medium italic text-center">
+              "Our role as an AI Consulting company is to tackle the critical challenges that companies haven't yet staffed for. We excel at building solutions and then thoughtfully transitioning them to permanent teams, embodying the principle of effective self-replacement."
+            </p>
+            <p className="text-lg text-primary font-medium text-center">
+              At Ajentic AI, we specialize in taking projects from zero to one, embracing our unique position as pioneers who excel at building foundations and gracefully stepping aside.
+            </p>
+          </div>
           <VennDiagram />
         </div>
       </section>

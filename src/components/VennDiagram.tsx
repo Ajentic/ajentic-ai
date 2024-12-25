@@ -50,14 +50,6 @@ const VennDiagram = () => {
           </div>
         </div>
       </div>
-      <div className="mt-8 space-y-4 text-center">
-        <p className="text-xl text-gray-700 font-medium italic">
-          "Our role as an AI Consulting company is to tackle the critical challenges that companies haven't yet staffed for. We excel at building solutions and then thoughtfully transitioning them to permanent teams, embodying the principle of effective self-replacement."
-        </p>
-        <p className="text-lg text-primary font-medium">
-          At Ajentic AI, we specialize in taking projects from zero to one, embracing our unique position as pioneers who excel at building foundations and gracefully stepping aside.
-        </p>
-      </div>
     </div>
   );
 };
