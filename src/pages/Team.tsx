@@ -27,15 +27,6 @@ const teamMembers = {
       initials: "VC",
     },
   ],
-  advisors: [
-    {
-      name: "Jai Desai",
-      role: "Advisor COO",
-      linkedin: "https://www.linkedin.com/in/jaidesai/",
-      image: "/placeholder.svg",
-      initials: "JD",
-    },
-  ],
   regional: [
     {
       name: "Sundararajan Kalidasan",
@@ -43,6 +34,15 @@ const teamMembers = {
       linkedin: "https://www.linkedin.com/in/sundararajan2008/",
       image: "/placeholder.svg",
       initials: "SK",
+    },
+  ],
+  advisors: [
+    {
+      name: "Jai Desai",
+      role: "Advisor COO",
+      linkedin: "https://www.linkedin.com/in/jaidesai/",
+      image: "/placeholder.svg",
+      initials: "JD",
     },
   ],
 };
@@ -102,8 +102,8 @@ const Team = () => {
           <Tabs defaultValue="leadership" className="w-full">
             <TabsList className="grid w-full grid-cols-3 mb-8">
               <TabsTrigger value="leadership">Co-Founders</TabsTrigger>
+              <TabsTrigger value="regional">India Team</TabsTrigger>
               <TabsTrigger value="advisors">Advisors</TabsTrigger>
-              <TabsTrigger value="regional">Regional Heads</TabsTrigger>
             </TabsList>
 
             <TabsContent value="leadership">
@@ -114,17 +114,17 @@ const Team = () => {
               </div>
             </TabsContent>
 
-            <TabsContent value="advisors">
+            <TabsContent value="regional">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {teamMembers.advisors.map((member) => (
+                {teamMembers.regional.map((member) => (
                   <TeamMemberCard key={member.name} member={member} />
                 ))}
               </div>
             </TabsContent>
 
-            <TabsContent value="regional">
+            <TabsContent value="advisors">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {teamMembers.regional.map((member) => (
+                {teamMembers.advisors.map((member) => (
                   <TeamMemberCard key={member.name} member={member} />
                 ))}
               </div>
