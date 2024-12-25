@@ -16,7 +16,7 @@ const teamMembers = {
       name: "Ravi Pangal",
       role: "Co-Founder",
       linkedin: "https://www.linkedin.com/in/ravi-pangal-7121871/",
-      image: "/placeholder.svg",
+      image: "/lovable-uploads/6bc5dc54-3757-4b53-b4c5-c4cac51418fe.png",
       initials: "RP",
     },
     {
