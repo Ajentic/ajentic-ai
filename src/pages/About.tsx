@@ -31,11 +31,17 @@ const About = () => {
             Our unique selling proposition
           </h2>
           <div className="max-w-3xl mx-auto mb-12">
+            <h3 className="text-2xl font-bold text-primary text-center mb-6">
+              Building Teams, Not Just Products
+            </h3>
             <p className="text-xl text-gray-600 text-center mb-6">
-              At a startup, you can be tricked into thinking you're building a technology company, so you focus a lot on the product. But ultimately, you're really building a team to build the product and then the company.
+              At Ajentic AI, we understand that while it may seem like you're building a technology company, the real challenge is building the team behind the product—and ultimately, the company itself.
+            </p>
+            <p className="text-xl text-gray-600 text-center mb-6">
+              Our team members excel at bridging the gap between vision and execution. They bring expertise in answering the "hows" to their colleagues' "whats," taking ownership of development, implementation, sustainability, and beyond.
             </p>
             <p className="text-xl text-gray-600 text-center">
-              That individual will figure out a lot of the "hows" to their colleagues' "whats," and will also take care of administrative contracts (esp SaaS agreements), finance, hiring, vendors, process development, and more.
+              With Ajentic AI, you gain more than a consulting partner—you gain a team dedicated to turning ambitious ideas into enduring success.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
