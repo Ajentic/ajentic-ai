@@ -23,7 +23,7 @@ const teamMembers = {
       name: "Vasanth Chetan",
       role: "Co-Founder",
       linkedin: "https://www.linkedin.com/in/vasanthchetan/",
-      image: "/placeholder.svg",
+      image: "/lovable-uploads/c51ea647-c944-4e60-8861-96d30595f4f6.png",
       initials: "VC",
     },
   ],
