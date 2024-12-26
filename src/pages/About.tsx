@@ -8,7 +8,7 @@ const About = () => {
       <section className="py-16 gradient-bg">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold text-primary text-center mb-6">
-            Transform Your Business with Gruve AI
+            Transform Your Business with Ajentic AI
           </h1>
           <div className="max-w-7xl mx-auto mb-12">
             <div className="grid md:grid-cols-3 gap-8">
@@ -116,7 +116,7 @@ const About = () => {
       <section className="py-16 gradient-bg">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-bold text-primary text-center mb-6">
-            Transform Your Business with Gruve AI
+            Transform Your Business with Ajentic AI
           </h2>
           <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto">
             Ajentic AI is a venture builder that develops AI solution for Retail vertical and many more, addressing specific needs expressed by the market.
