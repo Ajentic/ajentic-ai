@@ -13,7 +13,7 @@ const Navbar = () => {
             <img src="/lovable-uploads/a0ee3f29-b6f2-48d4-a993-24a3eb22e46d.png" alt="Ajentic Logo" className="h-8" />
           </Link>
           
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex space-x-6">
             <Link
               to="/about"
               className={`${
@@ -23,6 +23,26 @@ const Navbar = () => {
               } px-3 py-2 text-sm font-medium transition-colors duration-200`}
             >
               About Us
+            </Link>
+            <Link
+              to="/services"
+              className={`${
+                isActive("/services")
+                  ? "text-primary border-b-2 border-primary"
+                  : "text-gray-600 hover:text-primary"
+              } px-3 py-2 text-sm font-medium transition-colors duration-200`}
+            >
+              Services
+            </Link>
+            <Link
+              to="/partners"
+              className={`${
+                isActive("/partners")
+                  ? "text-primary border-b-2 border-primary"
+                  : "text-gray-600 hover:text-primary"
+              } px-3 py-2 text-sm font-medium transition-colors duration-200`}
+            >
+              Partners
             </Link>
             <Link
               to="/team"

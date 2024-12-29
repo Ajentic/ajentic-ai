@@ -7,6 +7,8 @@ import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
+import Services from "./pages/Services";
+import Partners from "./pages/Partners";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +26,8 @@ const App = () => (
               <Route path="/about" element={<About />} />
               <Route path="/team" element={<Team />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/partners" element={<Partners />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </main>
