@@ -10,6 +10,12 @@ const About = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-primary text-center mb-6">
             Transform Your Business with Ajentic AI
           </h1>
+          <h2 className="text-3xl md:text-4xl font-bold text-primary text-center mb-8">
+            Transform Your Vision into Thriving Ventures
+          </h2>
+          <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto mb-12">
+            Ajentic AI is a venture builder that develops AI solutions for Retail vertical and many more, addressing specific needs expressed by the market.
+          </p>
           <div className="max-w-7xl mx-auto mb-12">
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-[#FAFAFA] p-6 rounded-lg shadow-lg flex flex-col h-full">
@@ -53,6 +59,12 @@ const About = () => {
           <h2 className="text-3xl font-bold text-[#062E4B] text-center mb-12">
             Our Unique Selling Proposition: Building Teams to Build Great Products
           </h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-primary text-center mb-8">
+            Transform Your Vision into Thriving Ventures
+          </h2>
+          <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto mb-12">
+            Ajentic AI is a venture builder that develops AI solutions for Retail vertical and many more, addressing specific needs expressed by the market.
+          </p>
           <div className="max-w-7xl mx-auto mb-12">
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-[#FAFAFA] p-6 rounded-lg shadow-lg flex flex-col h-full">
