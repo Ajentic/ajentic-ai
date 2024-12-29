@@ -11,7 +11,7 @@ const Partners = () => {
         <Card className="card-hover">
           <CardContent className="p-8 flex flex-col items-center">
             <img 
-              src="https://www.iterate.ai/wp-content/themes/iterate/images/iterate-logo.svg" 
+              src="/lovable-uploads/bc266af7-66b3-4367-844b-60402e9d394b.png" 
               alt="Iterate.ai Logo" 
               className="h-12 mb-6"
             />
@@ -24,7 +24,7 @@ const Partners = () => {
         <Card className="card-hover">
           <CardContent className="p-8 flex flex-col items-center">
             <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Fujifilm_logo.svg" 
+              src="/lovable-uploads/db8143d8-dc52-47fb-b78e-03487627ac30.png" 
               alt="Fujifilm Logo" 
               className="h-12 mb-6"
             />
