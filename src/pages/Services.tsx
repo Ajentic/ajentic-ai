@@ -1,58 +1,9 @@
-import { ArrowRight, Bot, LineChart, Network, Workflow, Cloud, Smartphone, Share2, Bot as BotIcon } from "lucide-react";
+import { ArrowRight, Bot, LineChart, Network, Workflow } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const Services = () => {
   return (
     <div className="container mx-auto px-4 py-12">
-      <section className="mb-20">
-        <h2 className="text-3xl md:text-4xl font-bold text-primary text-center mb-12">
-          Market Opportunity: The Dawn of Agent Economy
-        </h2>
-        
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-          {[
-            {
-              era: "Cloud Era",
-              description: "Public Cloud unleashed the SaaS Economy",
-              icon: Cloud,
-              iconBg: "bg-blue-50",
-              iconColor: "text-blue-500"
-            },
-            {
-              era: "Mobile Era",
-              description: "The iPhone ushered in the App Economy",
-              icon: Smartphone,
-              iconBg: "bg-purple-50",
-              iconColor: "text-purple-500"
-            },
-            {
-              era: "Social Era",
-              description: "Social media enabled the Creator Economy",
-              icon: Share2,
-              iconColor: "text-green-500",
-              iconBg: "bg-green-50"
-            },
-            {
-              era: "AI Era",
-              description: "AI brings a similar tectonic shift, entering the Agent Economy",
-              icon: BotIcon,
-              iconColor: "text-primary",
-              iconBg: "bg-primary/5"
-            }
-          ].map((era, index) => (
-            <Card key={index} className="transform transition-all duration-300 hover:scale-105">
-              <CardContent className="p-6">
-                <div className={`w-16 h-16 rounded-full ${era.iconBg} flex items-center justify-center mb-4`}>
-                  <era.icon className={`w-8 h-8 ${era.iconColor}`} />
-                </div>
-                <h3 className="text-xl font-bold mb-2">{era.era}</h3>
-                <p className="text-gray-600">{era.description}</p>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </section>
-
       <h1 className="text-4xl md:text-5xl font-bold text-primary text-center mb-12">
         Our Services
       </h1>

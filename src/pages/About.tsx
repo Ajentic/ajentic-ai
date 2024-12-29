@@ -1,53 +1,69 @@
 import { Brain, Building, Users, Trophy } from "lucide-react";
 import USPCard from "@/components/USPCard";
 import VennDiagram from "@/components/VennDiagram";
+import { Card, CardContent } from "@/components/ui/card";
+import { Cloud, Smartphone, Share2, Bot as BotIcon } from "lucide-react";
 
 const About = () => {
   return (
     <div className="min-h-screen font-alegreya">
-      <section className="py-16 gradient-bg">
+      <section className="py-16 bg-gradient-to-b from-white to-gray-50">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold text-primary text-center mb-6">
-            Transform Your Business with Ajentic AI
-          </h1>
-          <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto mb-12">
-            Ajentic AI is a venture builder that develops AI solutions for Retail vertical and many more, addressing specific needs expressed by the market.
-          </p>
-          <div className="max-w-7xl mx-auto mb-12">
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-[#FAFAFA] p-6 rounded-lg shadow-lg flex flex-col h-full">
-                <img
-                  src="https://images.unsplash.com/photo-1451187580459-43490279c0fa"
-                  alt="AI Innovation"
-                  className="rounded-lg shadow-md mb-6 w-full h-48 object-cover"
-                />
-                <p className="text-lg text-[#112B3D] text-center flex-grow">
-                  At Ajentic AI, we are committed to shaping the future of artificial intelligence through innovation, collaboration, and strategic investments. Our mission is to drive technological progress with cutting-edge AI solutions that foster a better world for everyone.
-                </p>
-              </div>
-              <div className="bg-[#FAFAFA] p-6 rounded-lg shadow-lg flex flex-col h-full">
-                <img
-                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c"
-                  alt="Consulting Excellence"
-                  className="rounded-lg shadow-md mb-6 w-full h-48 object-cover"
-                />
-                <p className="text-lg text-[#112B3D] text-center flex-grow">
-                  As an AI consulting company, we address critical challenges that organizations are not yet equipped to handle internally. We specialize in designing and implementing transformative solutions and ensuring a seamless handoff to permanent teams, guided by our philosophy of effective self-replacement.
-                </p>
-              </div>
-              <div className="bg-[#FAFAFA] p-6 rounded-lg shadow-lg flex flex-col h-full">
-                <img
-                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f"
-                  alt="Vision to Reality"
-                  className="rounded-lg shadow-md mb-6 w-full h-48 object-cover"
-                />
-                <p className="text-lg text-[#112B3D] text-center flex-grow">
-                  We thrive on taking projects from concept to reality, excelling at building robust foundations and transitioning with grace once the groundwork is established. Ajentic AI is where pioneering vision meets purposeful execution.
-                </p>
-              </div>
-            </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-primary text-center mb-12">
+            Market Opportunity: The Dawn of Agent Economy
+          </h2>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+            {[
+              {
+                era: "Cloud Era",
+                description: "Public Cloud unleashed the SaaS Economy",
+                icon: Cloud,
+                iconBg: "bg-blue-50",
+                iconColor: "text-blue-500",
+                image: "/lovable-uploads/77833e33-f7f4-4580-943b-96751692e676.png"
+              },
+              {
+                era: "Mobile Era",
+                description: "The iPhone ushered in the App Economy",
+                icon: Smartphone,
+                iconBg: "bg-purple-50",
+                iconColor: "text-purple-500",
+                image: "/lovable-uploads/a28b7785-d837-45aa-bf68-a6e09c3f7e24.png"
+              },
+              {
+                era: "Social Era",
+                description: "Social media enabled the Creator Economy",
+                icon: Share2,
+                iconColor: "text-green-500",
+                iconBg: "bg-green-50",
+                image: "/lovable-uploads/631cd443-3245-4796-9636-202d10b65952.png"
+              },
+              {
+                era: "AI Era",
+                description: "AI brings a similar tectonic shift, entering the Agent Economy",
+                icon: BotIcon,
+                iconColor: "text-primary",
+                iconBg: "bg-primary/5",
+                image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&auto=format&fit=crop"
+              }
+            ].map((era, index) => (
+              <Card key={index} className="transform transition-all duration-300 hover:scale-105">
+                <CardContent className="p-6">
+                  <img 
+                    src={era.image} 
+                    alt={`${era.era} illustration`} 
+                    className="w-full h-48 object-cover rounded-lg mb-6"
+                  />
+                  <div className={`w-16 h-16 rounded-full ${era.iconBg} flex items-center justify-center mb-4`}>
+                    <era.icon className={`w-8 h-8 ${era.iconColor}`} />
+                  </div>
+                  <h3 className="text-xl font-bold mb-2">{era.era}</h3>
+                  <p className="text-gray-600">{era.description}</p>
+                </CardContent>
+              </Card>
+            ))}
           </div>
-          <VennDiagram />
         </div>
       </section>
 
