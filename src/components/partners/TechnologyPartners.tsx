@@ -16,25 +16,46 @@ const TechnologyPartners = () => {
             <TabsTrigger value="retail">Retail</TabsTrigger>
           </TabsList>
           <TabsContent value="sales">
-            <PartnerCard
-              logoSrc="/lovable-uploads/41fe9399-14c4-4f5d-b3ef-1aa73aba5490.png"
-              logoAlt="Amolino.ai Logo"
-              description="Transforming sales processes with AI-driven solutions"
-            />
+            <a 
+              href="https://amolino.ai" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block hover:opacity-90 transition-opacity"
+            >
+              <PartnerCard
+                logoSrc="/lovable-uploads/41fe9399-14c4-4f5d-b3ef-1aa73aba5490.png"
+                logoAlt="Amolino.ai Logo"
+                description="Transforming sales processes with AI-driven solutions"
+              />
+            </a>
           </TabsContent>
           <TabsContent value="manufacturing">
-            <PartnerCard
-              logoSrc="/lovable-uploads/4dbf2868-09a2-4654-b035-7addd43d5cb2.png"
-              logoAlt="Prodle.ai Logo"
-              description="Revolutionizing manufacturing with intelligent automation"
-            />
+            <a 
+              href="https://prodle.ai" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block hover:opacity-90 transition-opacity"
+            >
+              <PartnerCard
+                logoSrc="/lovable-uploads/4dbf2868-09a2-4654-b035-7addd43d5cb2.png"
+                logoAlt="Prodle.ai Logo"
+                description="Revolutionizing manufacturing with intelligent automation"
+              />
+            </a>
           </TabsContent>
           <TabsContent value="retail">
-            <PartnerCard
-              logoSrc="/lovable-uploads/bc266af7-66b3-4367-844b-60402e9d394b.png"
-              logoAlt="Iterate.ai Logo"
-              description="Enhancing retail experiences through AI innovation"
-            />
+            <a 
+              href="https://iterate.ai" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block hover:opacity-90 transition-opacity"
+            >
+              <PartnerCard
+                logoSrc="/lovable-uploads/bc266af7-66b3-4367-844b-60402e9d394b.png"
+                logoAlt="Iterate.ai Logo"
+                description="Enhancing retail experiences through AI innovation"
+              />
+            </a>
           </TabsContent>
         </Tabs>
       </div>
