@@ -13,7 +13,7 @@ const About = () => {
             Market Opportunity: The Dawn of Agent Economy
           </h2>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             {[
               {
                 era: "Cloud Era",
@@ -29,7 +29,7 @@ const About = () => {
                 icon: Smartphone,
                 iconBg: "bg-purple-50",
                 iconColor: "text-purple-500",
-                image: "/lovable-uploads/a28b7785-d837-45aa-bf68-a6e09c3f7e24.png"
+                image: "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800&auto=format&fit=crop"
               },
               {
                 era: "Social Era",
@@ -38,31 +38,46 @@ const About = () => {
                 iconColor: "text-green-500",
                 iconBg: "bg-green-50",
                 image: "/lovable-uploads/631cd443-3245-4796-9636-202d10b65952.png"
-              },
-              {
-                era: "AI Era",
-                description: "AI brings a similar tectonic shift, entering the Agent Economy",
-                icon: BotIcon,
-                iconColor: "text-primary",
-                iconBg: "bg-primary/5",
-                image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&auto=format&fit=crop"
               }
             ].map((era, index) => (
               <Card key={index} className="transform transition-all duration-300 hover:scale-105">
                 <CardContent className="p-6">
-                  <img 
-                    src={era.image} 
-                    alt={`${era.era} illustration`} 
-                    className="w-full h-48 object-cover rounded-lg mb-6"
-                  />
-                  <div className={`w-16 h-16 rounded-full ${era.iconBg} flex items-center justify-center mb-4`}>
+                  <div className="aspect-w-16 aspect-h-9 mb-6">
+                    <img 
+                      src={era.image} 
+                      alt={`${era.era} illustration`} 
+                      className="w-full h-48 object-cover rounded-lg shadow-md"
+                    />
+                  </div>
+                  <div className={`w-16 h-16 rounded-full ${era.iconBg} flex items-center justify-center mb-4 mx-auto`}>
                     <era.icon className={`w-8 h-8 ${era.iconColor}`} />
                   </div>
-                  <h3 className="text-xl font-bold mb-2">{era.era}</h3>
-                  <p className="text-gray-600">{era.description}</p>
+                  <h3 className="text-xl font-bold mb-2 text-center">{era.era}</h3>
+                  <p className="text-gray-600 text-center">{era.description}</p>
                 </CardContent>
               </Card>
             ))}
+          </div>
+
+          <div className="mt-8">
+            <Card className="transform transition-all duration-300 hover:scale-105 max-w-2xl mx-auto">
+              <CardContent className="p-6">
+                <div className="aspect-w-16 aspect-h-9 mb-6">
+                  <img 
+                    src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&auto=format&fit=crop"
+                    alt="AI Era illustration"
+                    className="w-full h-64 object-cover rounded-lg shadow-md"
+                  />
+                </div>
+                <div className="bg-primary/5 w-16 h-16 rounded-full flex items-center justify-center mb-4 mx-auto">
+                  <BotIcon className="w-8 h-8 text-primary" />
+                </div>
+                <h3 className="text-xl font-bold mb-2 text-center">AI Era</h3>
+                <p className="text-gray-600 text-center">
+                  AI brings a similar tectonic shift, entering the Agent Economy
+                </p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
