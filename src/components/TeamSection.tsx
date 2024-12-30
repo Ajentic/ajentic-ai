@@ -17,7 +17,7 @@ interface TeamSectionProps {
 
 const TeamSection = ({ leadership, regional, advisors }: TeamSectionProps) => {
   return (
-    <Tabs defaultValue="leadership" className="w-full">
+    <Tabs defaultValue="leadership" className="w-full max-w-6xl mx-auto">
       <TabsList className="grid w-full grid-cols-3 mb-8">
         <TabsTrigger value="leadership">Co-Founders</TabsTrigger>
         <TabsTrigger value="regional">India Team</TabsTrigger>
@@ -25,7 +25,7 @@ const TeamSection = ({ leadership, regional, advisors }: TeamSectionProps) => {
       </TabsList>
 
       <TabsContent value="leadership">
-        <div className={`grid grid-cols-1 md:grid-cols-2 gap-8 ${leadership.length === 1 ? 'place-items-center' : ''}`}>
+        <div className={`grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center ${leadership.length === 1 ? 'md:grid-cols-1' : ''}`}>
           {leadership.map((member) => (
             <TeamMemberCard key={member.name} member={member} />
           ))}
@@ -33,7 +33,7 @@ const TeamSection = ({ leadership, regional, advisors }: TeamSectionProps) => {
       </TabsContent>
 
       <TabsContent value="regional">
-        <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ${regional.length === 1 ? 'place-items-center' : ''}`}>
+        <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center ${regional.length === 1 ? 'md:grid-cols-1' : ''}`}>
           {regional.map((member) => (
             <TeamMemberCard key={member.name} member={member} />
           ))}
@@ -41,7 +41,7 @@ const TeamSection = ({ leadership, regional, advisors }: TeamSectionProps) => {
       </TabsContent>
 
       <TabsContent value="advisors">
-        <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ${advisors.length === 1 ? 'place-items-center' : ''}`}>
+        <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center ${advisors.length === 1 ? 'md:grid-cols-1' : ''}`}>
           {advisors.map((member) => (
             <TeamMemberCard key={member.name} member={member} />
           ))}
