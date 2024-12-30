@@ -11,7 +11,7 @@ const About = () => {
       <section className="py-16 bg-gradient-to-b from-white to-gray-50">
         <div className="container mx-auto px-4">
           <PageHeader 
-            title="Market Opportunity: The Dawn of Agent Economy"
+            title="The Dawn of Agent Economy"
           />
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
