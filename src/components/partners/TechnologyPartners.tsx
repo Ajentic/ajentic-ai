@@ -11,24 +11,24 @@ const TechnologyPartners = () => {
       <h1 className="text-4xl md:text-5xl font-bold text-primary text-center mb-12">
         Technology Partners
       </h1>
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto px-4">
         <Tabs defaultValue="sales" className="w-full">
-          <TabsList className={`grid w-full ${isMobile ? 'grid-cols-1 gap-2' : 'grid-cols-3'} bg-muted/50`}>
+          <TabsList className="flex flex-col md:grid md:grid-cols-3 w-full gap-2 md:gap-0 bg-white rounded-lg p-2">
             <TabsTrigger 
               value="sales"
-              className={`${isMobile ? 'py-3 text-base font-medium border-b' : ''} data-[state=active]:bg-primary data-[state=active]:text-white`}
+              className="w-full py-4 text-base font-medium rounded-md data-[state=active]:bg-primary data-[state=active]:text-white transition-all"
             >
               Sales
             </TabsTrigger>
             <TabsTrigger 
               value="manufacturing"
-              className={`${isMobile ? 'py-3 text-base font-medium border-b' : ''} data-[state=active]:bg-primary data-[state=active]:text-white`}
+              className="w-full py-4 text-base font-medium rounded-md data-[state=active]:bg-primary data-[state=active]:text-white transition-all"
             >
               Manufacturing
             </TabsTrigger>
             <TabsTrigger 
               value="retail"
-              className={`${isMobile ? 'py-3 text-base font-medium border-b' : ''} data-[state=active]:bg-primary data-[state=active]:text-white`}
+              className="w-full py-4 text-base font-medium rounded-md data-[state=active]:bg-primary data-[state=active]:text-white transition-all"
             >
               Retail
             </TabsTrigger>
