@@ -13,22 +13,22 @@ const TechnologyPartners = () => {
       </h1>
       <div className="max-w-4xl mx-auto">
         <Tabs defaultValue="sales" className="w-full">
-          <TabsList className={`grid w-full ${isMobile ? 'grid-cols-1 gap-2' : 'grid-cols-3'}`}>
+          <TabsList className={`grid w-full ${isMobile ? 'grid-cols-1 gap-2' : 'grid-cols-3'} bg-muted/50`}>
             <TabsTrigger 
               value="sales"
-              className={`${isMobile ? 'py-3 text-base' : ''}`}
+              className={`${isMobile ? 'py-3 text-base font-medium border-b' : ''} data-[state=active]:bg-primary data-[state=active]:text-white`}
             >
               Sales
             </TabsTrigger>
             <TabsTrigger 
               value="manufacturing"
-              className={`${isMobile ? 'py-3 text-base' : ''}`}
+              className={`${isMobile ? 'py-3 text-base font-medium border-b' : ''} data-[state=active]:bg-primary data-[state=active]:text-white`}
             >
               Manufacturing
             </TabsTrigger>
             <TabsTrigger 
               value="retail"
-              className={`${isMobile ? 'py-3 text-base' : ''}`}
+              className={`${isMobile ? 'py-3 text-base font-medium border-b' : ''} data-[state=active]:bg-primary data-[state=active]:text-white`}
             >
               Retail
             </TabsTrigger>
