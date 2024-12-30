@@ -43,7 +43,7 @@ const About = () => {
               <CardContent className="p-6">
                 <div className="mb-6">
                   <img 
-                    src="/lovable-uploads/92261bfc-4c32-4acf-ab36-8e8f143b3700.png"
+                    src="/lovable-uploads/c5449c15-1bf6-44fd-a9fb-bb8669fcff72.png"
                     alt="AI Era - Agent Economy"
                     className="w-full h-auto aspect-video object-cover rounded-lg shadow-md"
                     loading="lazy"
