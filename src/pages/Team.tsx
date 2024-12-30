@@ -93,11 +93,50 @@ const Team = () => {
       <section className="py-20 gradient-bg">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold text-center mb-6">
-            Our Leadership Team
+            Our Unique Selling Proposition
           </h1>
-          <p className="text-xl text-center text-gray-600 max-w-3xl mx-auto mb-12">
-            Meet the innovative minds behind Ajentic AI
-          </p>
+          <h2 className="text-2xl md:text-3xl font-semibold text-center mb-12">
+            Building Teams to Build Great Products
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            <Card className="bg-white p-6 rounded-lg shadow-lg">
+              <img
+                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c"
+                alt="Team Building"
+                className="w-full h-48 object-cover rounded-lg mb-6"
+              />
+              <p className="text-lg text-gray-700">
+                At Ajentic AI, we understand that while it may seem like you're building a technology company, the real challenge is building the team behind the product—and ultimately, the company itself.
+              </p>
+            </Card>
+
+            <Card className="bg-white p-6 rounded-lg shadow-lg">
+              <img
+                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf"
+                alt="Vision and Execution"
+                className="w-full h-48 object-cover rounded-lg mb-6"
+              />
+              <p className="text-lg text-gray-700">
+                Our team members excel at bridging the gap between vision and execution. They bring expertise in answering the "hows" to their colleagues' "whats," taking ownership of development, implementation, sustainability, and beyond.
+              </p>
+            </Card>
+
+            <Card className="bg-white p-6 rounded-lg shadow-lg">
+              <img
+                src="https://images.unsplash.com/photo-1552664730-d307ca884978"
+                alt="Partnership Success"
+                className="w-full h-48 object-cover rounded-lg mb-6"
+              />
+              <p className="text-lg text-gray-700">
+                With Ajentic AI, you gain more than a consulting partner—you gain a team dedicated to turning ambitious ideas into enduring success.
+              </p>
+            </Card>
+          </div>
+
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+            Meet Our Team
+          </h2>
 
           <Tabs defaultValue="leadership" className="w-full">
             <TabsList className="grid w-full grid-cols-3 mb-8">

@@ -52,7 +52,7 @@ const Navbar = () => {
                   : "text-gray-600 hover:text-primary"
               } px-3 py-2 text-sm font-medium transition-colors duration-200`}
             >
-              My Team
+              Team
             </Link>
             <Link
               to="/contact"
