@@ -15,7 +15,7 @@ const EraCard = ({ title, description, icon: Icon, image, imageAlt }: EraCardPro
       <CardContent className="p-6">
         <div className="aspect-w-16 aspect-h-9 mb-6">
           <img 
-            src={image} 
+            src={`${image}?w=800&auto=format&fit=crop`}
             alt={imageAlt}
             className="w-full h-48 object-cover rounded-lg shadow-md"
             loading="lazy"

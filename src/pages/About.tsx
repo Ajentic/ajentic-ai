@@ -19,21 +19,21 @@ const About = () => {
               title="Cloud Era"
               description="Public Cloud unleashed the SaaS Economy"
               icon={Cloud}
-              image="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&auto=format&fit=crop"
+              image="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
               imageAlt="Cloud Era"
             />
             <EraCard
               title="Mobile Era"
               description="The iPhone ushered in the App Economy"
               icon={Smartphone}
-              image="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=800&auto=format&fit=crop"
+              image="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5"
               imageAlt="Mobile Era"
             />
             <EraCard
               title="Social Era"
               description="Social media enabled the Creator Economy"
               icon={Share2}
-              image="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&auto=format&fit=crop"
+              image="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0"
               imageAlt="Social Era"
             />
           </div>
@@ -43,9 +43,9 @@ const About = () => {
               <CardContent className="p-6">
                 <div className="mb-6">
                   <img 
-                    src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&auto=format&fit=crop"
+                    src="/lovable-uploads/92261bfc-4c32-4acf-ab36-8e8f143b3700.png"
                     alt="AI Era - Agent Economy"
-                    className="w-full h-48 object-cover rounded-lg shadow-md"
+                    className="w-full h-auto aspect-video object-cover rounded-lg shadow-md"
                     loading="lazy"
                   />
                 </div>
