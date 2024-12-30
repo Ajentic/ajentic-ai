@@ -41,29 +41,11 @@ const About = () => {
           <div className="mt-8">
             <Card className="transform transition-all duration-300 hover:scale-105 max-w-2xl mx-auto">
               <CardContent className="p-6">
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-                  <img 
-                    src="https://images.unsplash.com/photo-1676299081847-824916de030a?w=800&auto=format&fit=crop"
-                    alt="OpenAI"
-                    className="w-full h-24 object-cover rounded-lg shadow-md"
-                    loading="lazy"
-                  />
+                <div className="mb-6">
                   <img 
                     src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&auto=format&fit=crop"
-                    alt="Anthropic"
-                    className="w-full h-24 object-cover rounded-lg shadow-md"
-                    loading="lazy"
-                  />
-                  <img 
-                    src="https://images.unsplash.com/photo-1685094488371-5e70d30f5a8d?w=800&auto=format&fit=crop"
-                    alt="Google Gemini"
-                    className="w-full h-24 object-cover rounded-lg shadow-md"
-                    loading="lazy"
-                  />
-                  <img 
-                    src="https://images.unsplash.com/photo-1684163761859-461e7d1fd523?w=800&auto=format&fit=crop"
-                    alt="Meta LLaMA"
-                    className="w-full h-24 object-cover rounded-lg shadow-md"
+                    alt="AI Era - Agent Economy"
+                    className="w-full h-48 object-cover rounded-lg shadow-md"
                     loading="lazy"
                   />
                 </div>
