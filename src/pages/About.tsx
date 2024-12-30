@@ -1,6 +1,5 @@
 import { Brain, Building, Users, Trophy } from "lucide-react";
 import USPCard from "@/components/USPCard";
-import VennDiagram from "@/components/VennDiagram";
 import { Card, CardContent } from "@/components/ui/card";
 import { Cloud, Smartphone, Share2, Bot as BotIcon } from "lucide-react";
 
@@ -21,7 +20,7 @@ const About = () => {
                 icon: Cloud,
                 iconBg: "bg-blue-50",
                 iconColor: "text-blue-500",
-                image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop"
+                image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&auto=format&fit=crop"
               },
               {
                 era: "Mobile Era",
@@ -37,7 +36,7 @@ const About = () => {
                 icon: Share2,
                 iconColor: "text-green-500",
                 iconBg: "bg-green-50",
-                image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&auto=format&fit=crop"
+                image: "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&auto=format&fit=crop"
               }
             ].map((era, index) => (
               <Card key={index} className="transform transition-all duration-300 hover:scale-105">
@@ -64,7 +63,7 @@ const About = () => {
               <CardContent className="p-6">
                 <div className="aspect-w-16 aspect-h-9 mb-6">
                   <img 
-                    src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&auto=format&fit=crop"
+                    src="https://images.unsplash.com/photo-1676299081847-824916de030a?w=800&auto=format&fit=crop"
                     alt="AI Era illustration"
                     className="w-full h-64 object-cover rounded-lg shadow-md"
                   />
