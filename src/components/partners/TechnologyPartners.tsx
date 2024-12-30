@@ -24,7 +24,7 @@ const TechnologyPartners = () => {
           </TabsContent>
           <TabsContent value="manufacturing">
             <PartnerCard
-              logoSrc="/lovable-uploads/77833e33-f7f4-4580-943b-96751692e676.png"
+              logoSrc="/lovable-uploads/4dbf2868-09a2-4654-b035-7addd43d5cb2.png"
               logoAlt="Prodle.ai Logo"
               description="Revolutionizing manufacturing with intelligent automation"
             />
