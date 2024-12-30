@@ -21,7 +21,7 @@ const About = () => {
                 icon: Cloud,
                 iconBg: "bg-blue-50",
                 iconColor: "text-blue-500",
-                image: "/lovable-uploads/77833e33-f7f4-4580-943b-96751692e676.png"
+                image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop"
               },
               {
                 era: "Mobile Era",
@@ -29,7 +29,7 @@ const About = () => {
                 icon: Smartphone,
                 iconBg: "bg-purple-50",
                 iconColor: "text-purple-500",
-                image: "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800&auto=format&fit=crop"
+                image: "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=800&auto=format&fit=crop"
               },
               {
                 era: "Social Era",
@@ -37,7 +37,7 @@ const About = () => {
                 icon: Share2,
                 iconColor: "text-green-500",
                 iconBg: "bg-green-50",
-                image: "/lovable-uploads/631cd443-3245-4796-9636-202d10b65952.png"
+                image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&auto=format&fit=crop"
               }
             ].map((era, index) => (
               <Card key={index} className="transform transition-all duration-300 hover:scale-105">
@@ -84,8 +84,8 @@ const About = () => {
 
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-[#062E4B] text-center mb-12">
-            Our Unique Selling Proposition: Building Teams to Build Great Products
+          <h2 className="text-3xl font-bold text-primary text-center mb-12">
+            Transform Your Business with Ajentic AI
           </h2>
           <div className="max-w-7xl mx-auto mb-12">
             <div className="grid md:grid-cols-3 gap-8">
@@ -96,7 +96,7 @@ const About = () => {
                   className="rounded-lg shadow-md mb-6 w-full h-48 object-cover"
                 />
                 <p className="text-lg text-[#112B3D] text-center flex-grow">
-                  At Ajentic AI, we understand that while it may seem like you're building a technology company, the real challenge is building the team behind the product—and ultimately, the company itself.
+                  At Ajentic AI, we are committed to shaping the future of artificial intelligence through innovation, collaboration, and strategic investments. Our mission is to drive technological progress with cutting-edge AI solutions that foster a better world for everyone.
                 </p>
               </div>
               <div className="bg-[#FAFAFA] p-6 rounded-lg shadow-lg flex flex-col h-full">
@@ -106,7 +106,7 @@ const About = () => {
                   className="rounded-lg shadow-md mb-6 w-full h-48 object-cover"
                 />
                 <p className="text-lg text-[#112B3D] text-center flex-grow">
-                  Our team members excel at bridging the gap between vision and execution. They bring expertise in answering the "hows" to their colleagues' "whats," taking ownership of development, implementation, sustainability, and beyond.
+                  As an AI consulting company, we address critical challenges that organizations are not yet equipped to handle internally. We specialize in designing and implementing transformative solutions and ensuring a seamless handoff to permanent teams, guided by our philosophy of effective self-replacement.
                 </p>
               </div>
               <div className="bg-[#FAFAFA] p-6 rounded-lg shadow-lg flex flex-col h-full">
@@ -116,7 +116,7 @@ const About = () => {
                   className="rounded-lg shadow-md mb-6 w-full h-48 object-cover"
                 />
                 <p className="text-lg text-[#112B3D] text-center flex-grow">
-                  With Ajentic AI, you gain more than a consulting partner—you gain a team dedicated to turning ambitious ideas into enduring success.
+                  We thrive on taking projects from concept to reality, excelling at building robust foundations and transitioning with grace once the groundwork is established. Ajentic AI is where pioneering vision meets purposeful execution.
                 </p>
               </div>
             </div>
