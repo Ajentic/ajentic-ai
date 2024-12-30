@@ -13,22 +13,22 @@ const TechnologyPartners = () => {
       </h1>
       <div className="max-w-4xl mx-auto px-4">
         <Tabs defaultValue="sales" className="w-full">
-          <TabsList className="flex flex-col md:grid md:grid-cols-3 w-full gap-2 md:gap-0 bg-white rounded-lg p-2">
+          <TabsList className="flex flex-col md:grid md:grid-cols-3 w-full gap-2 md:gap-0 bg-white/80 backdrop-blur-sm rounded-lg p-2 shadow-md">
             <TabsTrigger 
               value="sales"
-              className="w-full py-4 text-base font-medium rounded-md data-[state=active]:bg-primary data-[state=active]:text-white transition-all"
+              className="w-full py-4 text-base font-medium rounded-md bg-[#9b87f5]/10 hover:bg-[#9b87f5]/20 data-[state=active]:bg-[#9b87f5] data-[state=active]:text-white transition-all"
             >
               Sales
             </TabsTrigger>
             <TabsTrigger 
               value="manufacturing"
-              className="w-full py-4 text-base font-medium rounded-md data-[state=active]:bg-primary data-[state=active]:text-white transition-all"
+              className="w-full py-4 text-base font-medium rounded-md bg-[#33C3F0]/10 hover:bg-[#33C3F0]/20 data-[state=active]:bg-[#33C3F0] data-[state=active]:text-white transition-all"
             >
               Manufacturing
             </TabsTrigger>
             <TabsTrigger 
               value="retail"
-              className="w-full py-4 text-base font-medium rounded-md data-[state=active]:bg-primary data-[state=active]:text-white transition-all"
+              className="w-full py-4 text-base font-medium rounded-md bg-[#7E69AB]/10 hover:bg-[#7E69AB]/20 data-[state=active]:bg-[#7E69AB] data-[state=active]:text-white transition-all"
             >
               Retail
             </TabsTrigger>
