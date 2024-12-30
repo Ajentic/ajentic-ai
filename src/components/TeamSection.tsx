@@ -25,7 +25,7 @@ const TeamSection = ({ leadership, regional, advisors }: TeamSectionProps) => {
       </TabsList>
 
       <TabsContent value="leadership">
-        <div className={`grid grid-cols-1 md:grid-cols-2 gap-8 ${leadership.length === 1 ? 'place-items-center' : 'justify-items-center'}`}>
+        <div className={`grid grid-cols-1 md:grid-cols-2 gap-8 ${leadership.length === 1 ? 'md:grid-cols-1 place-items-center' : 'justify-items-center'}`}>
           {leadership.map((member) => (
             <TeamMemberCard key={member.name} member={member} />
           ))}
@@ -33,7 +33,7 @@ const TeamSection = ({ leadership, regional, advisors }: TeamSectionProps) => {
       </TabsContent>
 
       <TabsContent value="regional">
-        <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ${regional.length === 1 ? 'place-items-center' : 'justify-items-center'}`}>
+        <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ${regional.length === 1 ? 'md:grid-cols-1 place-items-center' : 'justify-items-center'}`}>
           {regional.map((member) => (
             <TeamMemberCard key={member.name} member={member} />
           ))}
@@ -41,7 +41,7 @@ const TeamSection = ({ leadership, regional, advisors }: TeamSectionProps) => {
       </TabsContent>
 
       <TabsContent value="advisors">
-        <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ${advisors.length === 1 ? 'place-items-center' : 'justify-items-center'}`}>
+        <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ${advisors.length === 1 ? 'md:grid-cols-1 place-items-center' : 'justify-items-center'}`}>
           {advisors.map((member) => (
             <TeamMemberCard key={member.name} member={member} />
           ))}
