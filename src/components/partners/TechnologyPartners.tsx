@@ -17,7 +17,7 @@ const TechnologyPartners = () => {
           </TabsList>
           <TabsContent value="sales">
             <PartnerCard
-              logoSrc="/lovable-uploads/1fcced45-da7f-4037-bfe6-0808c9cecd22.png"
+              logoSrc="/lovable-uploads/41fe9399-14c4-4f5d-b3ef-1aa73aba5490.png"
               logoAlt="Amolino.ai Logo"
               description="Transforming sales processes with AI-driven solutions"
             />
