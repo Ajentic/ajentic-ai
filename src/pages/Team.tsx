@@ -1,6 +1,7 @@
 import PageHeader from "@/components/PageHeader";
 import PillarCard from "@/components/PillarCard";
 import TeamSection from "@/components/TeamSection";
+import Logo from "@/components/Logo";
 
 const teamMembers = {
   leadership: [
@@ -44,6 +45,9 @@ const Team = () => {
     <div className="min-h-screen">
       <section className="py-20 gradient-bg">
         <div className="container mx-auto px-4">
+          <div className="flex justify-center mb-8">
+            <Logo />
+          </div>
           <PageHeader 
             title="Our Unique Selling Proposition"
             subtitle="Building Teams to Build Great Products"

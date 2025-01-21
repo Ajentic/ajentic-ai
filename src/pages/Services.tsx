@@ -1,9 +1,13 @@
 import { ArrowRight, Bot, LineChart, Network, Workflow } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import Logo from "@/components/Logo";
 
 const Services = () => {
   return (
     <div className="container mx-auto px-4 py-12">
+      <div className="flex justify-center mb-8">
+        <Logo />
+      </div>
       <h1 className="text-4xl md:text-5xl font-bold text-primary text-center mb-12">
         Our Services
       </h1>

@@ -4,12 +4,16 @@ import USPCard from "@/components/USPCard";
 import PageHeader from "@/components/PageHeader";
 import EraCard from "@/components/EraCard";
 import PillarCard from "@/components/PillarCard";
+import Logo from "@/components/Logo";
 
 const About = () => {
   return (
     <div className="min-h-screen font-alegreya">
       <section className="py-16 bg-gradient-to-b from-white to-gray-50">
         <div className="container mx-auto px-4">
+          <div className="flex justify-center mb-8">
+            <Logo />
+          </div>
           <PageHeader 
             title="The Dawn of Agent Economy"
           />

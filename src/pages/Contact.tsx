@@ -3,12 +3,12 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";
+import Logo from "@/components/Logo";
 
 const Contact = () => {
   const { register, handleSubmit, reset } = useForm();
 
   const onSubmit = (data: any) => {
-    // In a real application, this would send the data to a server
     console.log("Form submitted:", data);
     toast.success("Thank you for your message! We'll get back to you soon.");
     reset();
@@ -18,6 +18,9 @@ const Contact = () => {
     <div className="min-h-screen">
       <section className="py-20 gradient-bg">
         <div className="container mx-auto px-4">
+          <div className="flex justify-center mb-8">
+            <Logo />
+          </div>
           <h1 className="text-4xl md:text-5xl font-bold text-center mb-6">
             Contact Us
           </h1>
