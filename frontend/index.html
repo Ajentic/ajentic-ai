@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lead Score Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Lead Score Generator</h1>
+      <p class="subtitle">
+        Enter a customer comment to receive an intelligent lead score analysis
+      </p>
+
+      <div class="input-group">
+        <textarea
+          id="commentInput"
+          placeholder="Example: Need urgent kitchen renovation before holidays..."
+          maxlength="500"
+        ></textarea>
+        <div class="char-count">0/500</div>
+      </div>
+
+      <div class="button-container">
+        <button id="submitBtn" onclick="getLeadScore()">Generate Score</button>
+      </div>
+
+      <div id="loading" class="loading">Analyzing comment</div>
+      <div id="error" class="error"></div>
+      <div id="result" class="result">
+        <div class="score">0</div>
+        <div class="interpretation"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
